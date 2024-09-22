@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="keyboard"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/work/32/keyboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard.elf">
+				<Option output="E:/work/32/keyboard/cmake-build-debug/keyboard.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/work/32/keyboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/work/32/keyboard/Core/Inc"/>
+					<Add directory="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/work/32/keyboard/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/work/32/keyboard/Drivers/CMSIS/Include"/>
+					<Add directory="E:/work/32/keyboard/USB_DEVICE/App"/>
+					<Add directory="E:/work/32/keyboard/USB_DEVICE/Target"/>
+					<Add directory="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 keyboard.elf"/>
+					<CompileFile command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard.elf/fast">
+				<Option output="E:/work/32/keyboard/cmake-build-debug/keyboard.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/work/32/keyboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/work/32/keyboard/Core/Inc"/>
+					<Add directory="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/work/32/keyboard/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/work/32/keyboard/Drivers/CMSIS/Include"/>
+					<Add directory="E:/work/32/keyboard/USB_DEVICE/App"/>
+					<Add directory="E:/work/32/keyboard/USB_DEVICE/Target"/>
+					<Add directory="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 keyboard.elf/fast"/>
+					<CompileFile command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/work/32/keyboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/work/32/keyboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/work/32/keyboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/adc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/dma.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/gpio.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/main.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/spi.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/stm32f1xx_it.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Inc/usart.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/adc.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/dma.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/gpio.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/main.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/spi.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/stm32f1xx_it.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/syscalls.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/sysmem.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/system_stm32f1xx.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Src/usart.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Core/Startup/startup_stm32f103rctx.s">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/BSP/RFK_USB_CODE.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/BSP/RF_keyboard.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/BSP/RF_keyboard.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/CMSIS/LICENSE.txt">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/STM32F103ZETX_FLASH.ld">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/App/usb_device.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/App/usb_device.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/App/usbd_custom_hid_if.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/App/usbd_custom_hid_if.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/App/usbd_desc.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/App/usbd_desc.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="keyboard.elf"/>
+		</Unit>
+		<Unit filename="E:/work/32/keyboard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
